@@ -23,7 +23,7 @@ Animal::Animal(const char* name, int age) {
 
 // ostream(出力)，istream(入力)
 void Animal::print(ostream *os) {
-   *os << this->name << " is " << this->age << "years old.\n";
+   *os << this->name << " is " << this->age << " years old.\n";
 }
 
 int main(void) {
