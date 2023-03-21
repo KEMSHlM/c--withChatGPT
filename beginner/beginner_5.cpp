@@ -25,7 +25,7 @@ private:
     std::vector<Score> scores; // ベクター配列．
 
 public:
-    Student(const std::string& name, const std::string& student_id)
+    Student(const std::string& name, const std::string& student_id) // ここでstring型が＆であるのは理由があるのか？
         : name(name), student_id(student_id) {}
 
     void addScore(const std::string& subject, int score) {
